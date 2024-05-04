@@ -1,0 +1,118 @@
+/* Estilo para o corpo do site */
+body {
+    background-color: #000000; /* preto */
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #4b0082;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o título do cabeçalho */
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* Estilo para a navegação */
+nav {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilo para os botões */
+button {
+    background-color: #000000; /* preto */
+    color: #ffffff;
+    padding: 10px 20px; /* Aumentando um pouco o padding para tornar o botão um pouco maior */
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px; /* Ajustando o tamanho da fonte */
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #800080; /* roxo */
+}
+
+/* Estilo para o botão do menu */
+.menu-button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 10px;
+    padding: 0;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.menu-button:focus {
+    outline: none; /* Removendo a borda de foco padrão */
+}
+
+/* Estilo para o menu lateral */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #4b0082;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+/* Estilo para os links do menu lateral */
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+/* Estilo para os links do menu lateral ao passar o mouse */
+.sidebar a:hover {
+    background-color: #800080;
+}
+
+/* Estilo para fechar o menu lateral */
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Estilo para as seções */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #4b0082;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    position: relative; /* Mudei para relativo para que fique abaixo do conteúdo */
+    bottom: 0;
+}

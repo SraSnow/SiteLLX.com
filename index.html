@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site llx</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilo para as imagens laterais */
+        #left-image,
+        #right-image {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer; /* Altera o cursor para indicar que as imagens são clicáveis */
+        }
+        
+        #left-image {
+            left: 0;
+        }
+        
+        #right-image {
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Adicionando as imagens laterais -->
+    <a href="https://discord.gg/8rNk2KZQYf">
+        <img id="left-image" src="https://media.discordapp.net/attachments/1192632920775594016/1236063405958234202/images.png?ex=6636a540&is=663553c0&hm=355fcda5d790a4943421644628ec7d8ccc07baef7e03d0c4ed5a8022a258c375&=&format=webp&quality=lossless" alt="Discord">
+    </a>
+    <a href="https://www.instagram.com/leoj_sv/">
+        <img id="right-image" src="https://media.discordapp.net/attachments/1192632920775594016/1236062044755726518/instagram.png?ex=6636a3fc&is=6635527c&hm=7e4942e5b621ef5e0369cc2f76ae8b58c163c8e049e7c4227c5aed14ea1320a8&=&format=webp&quality=lossless" alt="Instagram">
+    </a>
+    
+    <header>
+        <button class="menu-button">&#9776;</button>
+        <h1>Site LLX</h1>
+    </header>
+
+    <!-- Menu lateral -->
+    <div class="sidebar" id="sidebar">
+        <button class="closebtn" onclick="closeNav()">&times;</button>
+        <a href="https://www.instagram.com/leoj_sv/" target="_blank">Instagram</a>
+        <a href="contatos.html">Contato</a>
+        <a href="download.html">Downloads</a> <!-- Corrigido para download.html -->
+        <a href="https://srasnow.github.io/PurpleCards/" target="_blank">Vendas</a>
+        <a href="https://github.com/SrSnot" target="_blank">Github</a>
+    </div>
+
+    <nav>
+        <a href="https://www.instagram.com/leoj_sv/" target="_blank"><button>Instagram</button></a>
+        <a href="contatos.html"><button>Contato</button></a>
+        <a href="https://srasnow.github.io/PurpleCards/" target="_blank"><button>Vendas</button></a>
+        <a href="https://github.com/SrSnot" target="_blank"><button>Github</button></a>
+    </nav>
+
+    <section id="instagram">
+        <h2>Instagram</h2>
+        <p>Você pode encontrar meu instagram aqui!.</p>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em Contato Comigo Diretamente!.</p>
+    </section>
+
+    <section id="vendas">
+        <h2>Vendas</h2>
+        <p>Confira os produtos da minha Loja!.</p>
+    </section>
+
+    <!-- Movendo o texto "Site llx - Todos os direitos reservados." para abaixo da seção de Vendas -->
+    <footer>
+        <p>Site llx - Todos os direitos reservados.</p>
+        <a href="index.html">Voltar para o site</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

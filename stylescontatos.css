@@ -1,0 +1,46 @@
+/* Estilo para o menu lateral nos contatos */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #4b0082;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #800080;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Estilo para o botão "Início" */
+.btn-inicio {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #4b0082; /* Alterado para roxo */
+    padding: 10px 20px;
+    border: 2px solid #4b0082;
+    border-radius: 5px;
+    transition: none; /* Removendo a transição */
+}
